@@ -13,12 +13,13 @@
   },
   "scripts": {
     "start": "npm-run-all --parallel start:app start:server",
-    "start:app": "react-scripts start",
+    "start:app": "craco start",
     "start:server": "netlify-lambda serve ./functions",
     "build": "npm-run-all --parallel build:**",
     "read": "read",
-    "build:app": "react-scripts build",
-    "build:functions": "netlify-lambda build ./functions"
+    "build:app": "craco build",
+    "build:functions": "netlify-lambda build ./functions",
+    "test": "craco test"
   },
   "eslintConfig": {
     "extends": "react-app"
