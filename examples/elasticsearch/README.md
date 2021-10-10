@@ -1,4 +1,4 @@
-# Search UI + Elasticsearch Example
+# Search UI + Elasticsearch Example + Images + Tailwind CSS
 
 https://search-ui-stable-elasticsearch.netlify.com/
 
