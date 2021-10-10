@@ -4,6 +4,8 @@ https://search-ui-stable-elasticsearch.netlify.com/
 
 ## About
 
+<img src="./screenshot.png" width="600">
+
 This is an example of Search UI using Elasticsearch as a Search API.
 
 As noted elsewhere, when using Elasticsearch as a Search API, no Connector is available, so we need to write Handlers ourselves.
