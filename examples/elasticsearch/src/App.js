@@ -95,18 +95,20 @@ export default function App() {
                         ]}
                       />
                     )}
-                    <Facet
+                    <Facet className="bg-white hover:shadow-xl  rounded-xl shadow-lg px-9"
                       field="states"
                       label="States"
                       filterType="any"
                       isFilterable={true}
                     />
-                    <Facet
+                    <Facet className="bg-white  hover:shadow-xl  rounded-xl shadow-lg  "
                       field="world_heritage_site"
                       label="World Heritage Site?"
                     />
-                    <Facet field="visitors" label="Visitors" filterType="any" />
-                    <Facet
+                    <Facet field="visitors" label="Visitors" filterType="any" 
+                    className="bg-white    hover:shadow-xl  rounded-xl shadow-lg   	"
+                    />
+                    <Facet className="bg-white    hover:shadow-xl  rounded-xl shadow-lg   	"
                       field="acres"
                       label="Acres"
                       view={SingleSelectFacet}
