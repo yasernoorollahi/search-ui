@@ -38,11 +38,6 @@ search experience up and running in minutes.
 
 <img src="packages/react-search-ui/resources/screenshot.png" width="600">
 
-### Live Demo
-
-Checkout the [live demo of Search UI](https://search-ui-stable.netlify.com).
-
-[![Edit search-ui-national-parks-example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/national-parks-example-kdyms?fontsize=14)
 
 ## Getting started 🐣
 
