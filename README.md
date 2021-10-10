@@ -3,6 +3,7 @@
 > Libraries for the fast development of modern, engaging search experiences. :tada:
 # Search UI + Images + Tailwindcss 
 In this repository you can customize your css with Tailwind css
+**[Tailwind CSS](https://tailwindcss.com)** 
 
 ## Contents
 
