@@ -111,13 +111,15 @@ export default function App() {
                     />
                   </div>
                 }
+
                 bodyContent={
                   <Results
-                    titleField="title"
-                    urlField="nps_link"
-                    shouldTrackClickThrough={true}
+                      titleField="name"
+                      urlField="image_url"
+                      resultView={ResultView}
                   />
-                }
+              }
+
                 bodyHeader={
                   <React.Fragment>
                     {wasSearched && <PagingInfo />}
