@@ -5,6 +5,11 @@
 ## search ui with image and tailwindcss
 ## elasticsearch search ui with image and tailwindcss
 In this repository you can customize your css with Tailwind css
+
+## you can see the details in example/elasticsearch 
+
+
+
 **[Tailwind CSS](https://tailwindcss.com)** 
 
 ## Contents
