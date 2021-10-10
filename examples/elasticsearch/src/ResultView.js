@@ -11,16 +11,27 @@ export default ({ result }) => (
 
     <div className="bg-white p-1 w-80 hover:shadow-2xl max-w-3xl sm:w-full sm:p-4 h-auto sm:h-64 rounded-2xl shadow-lg  flex flex-col sm:flex-row gap-5 select-none flex justify-center items-center border bg-gray-100">
 
-      <div className="bg-white relative shadow-lg hover:shadow-xl transition duration-500 rounded-lg">
+      {/* <div className="bg-white relative shadow-lg hover:shadow-xl transition duration-500 rounded-lg">
         <img alt="resturant"
           className="h-52 sm:h-full sm:w-72 rounded-xl bg-gray-100 bg-center bg-cover"
           src={result.image_url.raw} />
-        <div className="absolute top-2 right-2 py-2 px-1 bg-white rounded-xl text-xs">
-          <span className="text-md">{result.type.raw}</span>
-        </div>
-      </div>
+     
 
+          
+      </div> */}
 
+<img
+          src={result.image_url.raw}
+          alt="thumb"
+          style={{
+            display: "block",
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: "center"
+          }}
+        />
+        
       <div className="flex sm:flex-1 flex-col gap-8 p-1 ">
         <h1 className="text-lg sm:text-xl font-semibold  text-gray-600">
           <span dangerouslySetInnerHTML={{ __html: result.title.raw }} />
