@@ -1,6 +1,6 @@
 # Search UI + Elasticsearch Example + Images + Tailwind CSS
 
-https://search-ui-stable-elasticsearch.netlify.com/
+there is no online demo, you can download the code and use it 
 
 ## About
 
